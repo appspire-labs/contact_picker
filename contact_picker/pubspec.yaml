@@ -11,7 +11,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  contact_picker_platform_interface: ^4.2.0
+  contact_picker_platform_interface:
+    git:
+        url: git://github.com/appspire-labs/contact_picker.git
+        path: ./contact_picker_platform_interface
   contact_picker_web: ^4.2.1
 
 dev_dependencies:
